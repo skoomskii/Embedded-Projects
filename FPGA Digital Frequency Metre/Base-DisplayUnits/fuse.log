@@ -1,0 +1,43 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/basic_sys_tb_isim_beh.exe -prj C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/basic_sys_tb_beh.prj work.basic_sys_tb 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/modulo10_counter.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/mod100_counter.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/time_multiplexer_4digit.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/mod10k_counter.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/Hold_Register_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/frequency_divider.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/main_data_unit.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/Controlpath_Interface.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/Frequency_Metre.vhd" into library work
+Parsing VHDL file "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/basic_sys_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159620 KB
+Fuse CPU Usage: 546 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling architecture behavioral of entity frequency_divider [frequency_divider_default]
+Compiling architecture behavioral of entity modulo10_counter [modulo10_counter_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture behavioral of entity mod100_counter [mod100_counter_default]
+Compiling architecture behavioral of entity mod10k_counter [mod10k_counter_default]
+Compiling architecture behavioral of entity Hold_Register_32bit [hold_register_32bit_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity time_multiplexer_4digit [time_multiplexer_4digit_default]
+Compiling architecture behavioral of entity Data_Unit_main [data_unit_main_default]
+Compiling architecture behavioral of entity FSMD [fsmd_default]
+Compiling architecture behavioral of entity Frequency_Metre [frequency_metre_default]
+Compiling architecture behavior of entity basic_sys_tb
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 28 VHDL Units
+Built simulation executable C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Simulations/Code/IDPv1.0/basic_sys_tb_isim_beh.exe
+Fuse Memory Usage: 176680 KB
+Fuse CPU Usage: 1046 ms
