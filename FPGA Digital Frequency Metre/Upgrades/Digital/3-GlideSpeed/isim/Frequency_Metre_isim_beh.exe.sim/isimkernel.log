@@ -1,0 +1,29 @@
+Command line:
+   Frequency_Metre_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  56615
+
+Sat Nov 13 11:48:09 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 649.449 Meg
+
+ Total Signals          : 199
+ Total Nets             : 240
+ Total Signal Drivers   : 53
+ Total Blocks           : 28
+ Total Primitive Blocks : 22
+ Total Processes        : 50
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 621
+Total Line Count : 185
+
+ Total Simulation Time: 1.01563 sec
+
+ Current Memory Usage: 649.449 Meg
+
+Sat Nov 13 11:49:37 2021
+
