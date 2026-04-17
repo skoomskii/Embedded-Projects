@@ -1,0 +1,6 @@
+Frequency metres measure the number of periodic oscillations of an input signal. 
+Analogue designs and upgrades were both implemented and simulated on NI Multisim.
+The first objective of this project was to implement a basic frequency metre on the Spartan-6 FPGA, using an existing Datapath Interface and Control-path Interface based on a Mealy-Moore state machine. 
+The second objective was to upgrade the basic system to display the unit of frequency, an appropriate decimal point, allow glide through of frequency across displays, and allow selection of either 1Hz, 10Hz, or 100Hz as the glide through rate. 
+The last objective was to upgrade the system to allow metering of analogue signals, protection from currents exceeding 80mA, and protection from voltages exceeding 3.0V. 
+Digital designs and upgrades were implemented using VHDL code on Xilinx ISE Design Suite, testing and simulation was performed in conjunction with I-Sim. 
