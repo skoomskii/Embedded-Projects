@@ -1,0 +1,29 @@
+Command line:
+   sweep_upgrade_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65195
+
+Sat Nov 13 12:10:14 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 649.11 Meg
+
+ Total Signals          : 206
+ Total Nets             : 240
+ Total Signal Drivers   : 57
+ Total Blocks           : 29
+ Total Primitive Blocks : 22
+ Total Processes        : 53
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 623
+Total Line Count : 200
+
+ Total Simulation Time: 9.82813 sec
+
+ Current Memory Usage: 335.061 Meg
+
+Sat Nov 13 12:46:25 2021
+
