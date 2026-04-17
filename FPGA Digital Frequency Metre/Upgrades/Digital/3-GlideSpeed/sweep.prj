@@ -1,0 +1,5 @@
+vhdl work "Reg_5bit.vhd"
+vhdl work "MUX_81.vhd"
+vhdl work "MUX_31.vhd"
+vhdl work "Mod8_Counter.vhd"
+vhdl work "sweep.vhd"
