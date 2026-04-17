@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Upgrades/Code/IDPv1.2/basic_sys_tb_isim_beh.exe" -prj "C:/Users/CUSTOMER/Desktop/UWI/2021-2022/Semester I/ECNG2004/IDP/Upgrades/Code/IDPv1.2/basic_sys_tb_beh.prj" "work.basic_sys_tb" 

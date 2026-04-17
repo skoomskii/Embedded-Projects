@@ -1,0 +1,3 @@
+vhdl work "modulo10_counter.vhd"
+vhdl work "mod100_counter.vhd"
+vhdl work "mod10k_counter.vhd"

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/Frequency_Metre.xst" -ofn "C:/.Xilinx/IDP/Frequency_Metre.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/Frequency_Metre.xst" -ofn "C:/.Xilinx/IDP/Frequency_Metre.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/Frequency_Metre.xst" -ofn "C:/.Xilinx/IDP/Frequency_Metre.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/Frequency_Metre.xst" -ofn "C:/.Xilinx/IDP/Frequency_Metre.syr" 
