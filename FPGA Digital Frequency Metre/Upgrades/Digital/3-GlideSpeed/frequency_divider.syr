@@ -1,0 +1,760 @@
+Release 13.2 - xst O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: frequency_divider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "frequency_divider.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "frequency_divider"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : frequency_divider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\.Xilinx\IDP\frequency_divider.vhd" into library work
+Parsing entity <frequency_divider>.
+Parsing architecture <Behavioral> of entity <frequency_divider>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <frequency_divider> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\.Xilinx\IDP\frequency_divider.vhd" Line 37: clock1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\.Xilinx\IDP\frequency_divider.vhd" Line 54: clock2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\.Xilinx\IDP\frequency_divider.vhd" Line 71: clock3 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\.Xilinx\IDP\frequency_divider.vhd" Line 88: clock4 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\.Xilinx\IDP\frequency_divider.vhd" Line 105: clock5 should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <frequency_divider>.
+    Related source file is "c:/.xilinx/idp/frequency_divider.vhd".
+    Found 1-bit register for signal <clk_005Hz.a2<13>>.
+    Found 1-bit register for signal <clk_005Hz.a2<12>>.
+    Found 1-bit register for signal <clk_005Hz.a2<11>>.
+    Found 1-bit register for signal <clk_005Hz.a2<10>>.
+    Found 1-bit register for signal <clk_005Hz.a2<9>>.
+    Found 1-bit register for signal <clk_005Hz.a2<8>>.
+    Found 1-bit register for signal <clk_005Hz.a2<7>>.
+    Found 1-bit register for signal <clk_005Hz.a2<6>>.
+    Found 1-bit register for signal <clk_005Hz.a2<5>>.
+    Found 1-bit register for signal <clk_005Hz.a2<4>>.
+    Found 1-bit register for signal <clk_005Hz.a2<3>>.
+    Found 1-bit register for signal <clk_005Hz.a2<2>>.
+    Found 1-bit register for signal <clk_005Hz.a2<1>>.
+    Found 1-bit register for signal <clk_005Hz.a2<0>>.
+    Found 1-bit register for signal <clk_1Hz.a3<12>>.
+    Found 1-bit register for signal <clk_1Hz.a3<11>>.
+    Found 1-bit register for signal <clk_1Hz.a3<10>>.
+    Found 1-bit register for signal <clk_1Hz.a3<9>>.
+    Found 1-bit register for signal <clk_1Hz.a3<8>>.
+    Found 1-bit register for signal <clk_1Hz.a3<7>>.
+    Found 1-bit register for signal <clk_1Hz.a3<6>>.
+    Found 1-bit register for signal <clk_1Hz.a3<5>>.
+    Found 1-bit register for signal <clk_1Hz.a3<4>>.
+    Found 1-bit register for signal <clk_1Hz.a3<3>>.
+    Found 1-bit register for signal <clk_1Hz.a3<2>>.
+    Found 1-bit register for signal <clk_1Hz.a3<1>>.
+    Found 1-bit register for signal <clk_1Hz.a3<0>>.
+    Found 1-bit register for signal <clk_10Hz.a4<8>>.
+    Found 1-bit register for signal <clk_10Hz.a4<7>>.
+    Found 1-bit register for signal <clk_10Hz.a4<6>>.
+    Found 1-bit register for signal <clk_10Hz.a4<5>>.
+    Found 1-bit register for signal <clk_10Hz.a4<4>>.
+    Found 1-bit register for signal <clk_10Hz.a4<3>>.
+    Found 1-bit register for signal <clk_10Hz.a4<2>>.
+    Found 1-bit register for signal <clk_10Hz.a4<1>>.
+    Found 1-bit register for signal <clk_10Hz.a4<0>>.
+    Found 1-bit register for signal <clk_100Hz.a5<5>>.
+    Found 1-bit register for signal <clk_100Hz.a5<4>>.
+    Found 1-bit register for signal <clk_100Hz.a5<3>>.
+    Found 1-bit register for signal <clk_100Hz.a5<2>>.
+    Found 1-bit register for signal <clk_100Hz.a5<1>>.
+    Found 1-bit register for signal <clk_100Hz.a5<0>>.
+    Found 1-bit register for signal <clk_1kHz.a1<2>>.
+    Found 1-bit register for signal <clk_1kHz.a1<1>>.
+    Found 1-bit register for signal <clk_1kHz.a1<0>>.
+    Found 3-bit subtractor for signal <GND_5_o_GND_5_o_sub_1_OUT<2:0>> created at line 32.
+    Found 14-bit subtractor for signal <GND_5_o_GND_5_o_sub_4_OUT<13:0>> created at line 49.
+    Found 13-bit subtractor for signal <GND_5_o_GND_5_o_sub_7_OUT<12:0>> created at line 66.
+    Found 9-bit subtractor for signal <GND_5_o_GND_5_o_sub_10_OUT<8:0>> created at line 83.
+    Found 6-bit subtractor for signal <GND_5_o_GND_5_o_sub_13_OUT<5:0>> created at line 100.
+WARNING:Xst:737 - Found 1-bit latch for signal <clock1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <clock2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <clock3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <clock4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <clock5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  45 D-type flip-flop(s).
+	inferred   5 Latch(s).
+	inferred   5 Multiplexer(s).
+Unit <frequency_divider> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 13-bit subtractor                                     : 1
+ 14-bit subtractor                                     : 1
+ 3-bit subtractor                                      : 1
+ 6-bit subtractor                                      : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 45
+ 1-bit register                                        : 45
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Multiplexers                                         : 5
+ 1-bit 2-to-1 multiplexer                              : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 13-bit subtractor                                     : 1
+ 14-bit subtractor                                     : 1
+ 3-bit subtractor                                      : 1
+ 6-bit subtractor                                      : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+# Multiplexers                                         : 5
+ 1-bit 2-to-1 multiplexer                              : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set or reset and opposite initialization value:
+    clk_1kHz.a1_2 in unit <frequency_divider>
+    clk_100Hz.a5_5 in unit <frequency_divider>
+    clk_10Hz.a4_8 in unit <frequency_divider>
+    clk_1Hz.a3_12 in unit <frequency_divider>
+    clk_005Hz.a2_13 in unit <frequency_divider>
+    clk_1kHz.a1_0 in unit <frequency_divider>
+    clk_100Hz.a5_1 in unit <frequency_divider>
+    clk_100Hz.a5_4 in unit <frequency_divider>
+    clk_10Hz.a4_2 in unit <frequency_divider>
+    clk_10Hz.a4_4 in unit <frequency_divider>
+    clk_10Hz.a4_5 in unit <frequency_divider>
+    clk_10Hz.a4_7 in unit <frequency_divider>
+    clk_10Hz.a4_6 in unit <frequency_divider>
+    clk_1Hz.a3_3 in unit <frequency_divider>
+    clk_1Hz.a3_7 in unit <frequency_divider>
+    clk_1Hz.a3_8 in unit <frequency_divider>
+    clk_1Hz.a3_9 in unit <frequency_divider>
+    clk_005Hz.a2_4 in unit <frequency_divider>
+    clk_005Hz.a2_8 in unit <frequency_divider>
+    clk_005Hz.a2_9 in unit <frequency_divider>
+    clk_005Hz.a2_10 in unit <frequency_divider>
+
+WARNING:Xst:2016 - Found a loop when searching source clock on port 'GND_5_o_reset_OR_6_o:GND_5_o_reset_OR_6_o'
+Last warning will be issued only once.
+
+Optimizing unit <frequency_divider> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block frequency_divider, actual ratio is 0.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_005Hz.a2_10_LD hinder the constant cleaning in the block frequency_divider.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_1Hz.a3_9_LD hinder the constant cleaning in the block frequency_divider.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_10Hz.a4_6_LD hinder the constant cleaning in the block frequency_divider.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_100Hz.a5_4_LD hinder the constant cleaning in the block frequency_divider.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_1kHz.a1_0_LD hinder the constant cleaning in the block frequency_divider.
+   You should achieve better results by setting this init to 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : frequency_divider.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 143
+#      GND                         : 1
+#      INV                         : 17
+#      LUT1                        : 2
+#      LUT2                        : 2
+#      LUT3                        : 25
+#      LUT4                        : 3
+#      LUT5                        : 11
+#      LUT6                        : 24
+#      MUXCY                       : 25
+#      MUXF7                       : 5
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 76
+#      FD                          : 21
+#      FDC                         : 24
+#      FDP                         : 21
+#      LD                          : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              76  out of  18224     0%  
+ Number of Slice LUTs:                   84  out of   9112     0%  
+    Number used as Logic:                84  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    112
+   Number with an unused Flip Flop:      36  out of    112    32%  
+   Number with an unused LUT:            28  out of    112    25%  
+   Number of fully used LUT-FF pairs:    48  out of    112    42%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------+------------------------+-------+
+Clock Signal                                   | Clock buffer(FF name)  | Load  |
+-----------------------------------------------+------------------------+-------+
+clk                                            | BUFGP                  | 66    |
+GND_5_o_reset_OR_6_o(GND_5_o_reset_OR_6_o1:O)  | NONE(*)(clock1)        | 2     |
+GND_5_o_reset_OR_34_o(GND_5_o_reset_OR_34_o1:O)| NONE(*)(clock2)        | 2     |
+GND_5_o_reset_OR_60_o(GND_5_o_reset_OR_60_o1:O)| NONE(*)(clock3)        | 2     |
+GND_5_o_reset_OR_78_o(GND_5_o_reset_OR_78_o:O) | NONE(*)(clock4)        | 2     |
+GND_5_o_reset_OR_90_o(GND_5_o_reset_OR_90_o1:O)| NONE(*)(clock5)        | 2     |
+-----------------------------------------------+------------------------+-------+
+(*) These 5 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.143ns (Maximum Frequency: 241.351MHz)
+   Minimum input arrival time before clock: 3.918ns
+   Maximum output required time after clock: 3.685ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.143ns (frequency: 241.351MHz)
+  Total number of paths / destination ports: 1443 / 111
+-------------------------------------------------------------------------
+Delay:               4.143ns (Levels of Logic = 3)
+  Source:            clk_005Hz.a2_5 (FF)
+  Destination:       clk_005Hz.a2_12 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_005Hz.a2_5 to clk_005Hz.a2_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   0.995  clk_005Hz.a2_5 (clk_005Hz.a2_5)
+     LUT6:I1->O            1   0.203   0.000  GND_5_o_GND_5_o_equal_6_o<13>1_G (N25)
+     MUXF7:I1->O           2   0.140   0.721  GND_5_o_GND_5_o_equal_6_o<13>1 (GND_5_o_GND_5_o_equal_6_o<13>)
+     LUT5:I3->O           16   0.203   1.004  GND_5_o_reset_OR_34_o1 (GND_5_o_reset_OR_34_o)
+     FDC:CLR                   0.430          clk_005Hz.a2_12
+    ----------------------------------------
+    Total                      4.143ns (1.423ns logic, 2.720ns route)
+                                       (34.3% logic, 65.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GND_5_o_reset_OR_6_o'
+  Clock period: 2.526ns (frequency: 395.805MHz)
+  Total number of paths / destination ports: 3 / 1
+-------------------------------------------------------------------------
+Delay:               2.526ns (Levels of Logic = 2)
+  Source:            clk_1kHz.a1_0_LD (LATCH)
+  Destination:       clock1 (LATCH)
+  Source Clock:      GND_5_o_reset_OR_6_o falling
+  Destination Clock: GND_5_o_reset_OR_6_o falling
+
+  Data Path: clk_1kHz.a1_0_LD to clock1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               7   0.498   1.002  clk_1kHz.a1_0_LD (clk_1kHz.a1_0_LD)
+     LUT3:I0->O            1   0.205   0.580  clk_1kHz.a1_01 (clk_1kHz.a1_0)
+     LUT6:I5->O            1   0.205   0.000  Mmux_clock1_clock1_MUX_4_o11 (clock1_clock1_MUX_4_o)
+     LD:D                      0.037          clock1
+    ----------------------------------------
+    Total                      2.526ns (0.945ns logic, 1.582ns route)
+                                       (37.4% logic, 62.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GND_5_o_reset_OR_34_o'
+  Clock period: 2.695ns (frequency: 371.085MHz)
+  Total number of paths / destination ports: 4 / 1
+-------------------------------------------------------------------------
+Delay:               2.695ns (Levels of Logic = 2)
+  Source:            clk_005Hz.a2_10_LD (LATCH)
+  Destination:       clock2 (LATCH)
+  Source Clock:      GND_5_o_reset_OR_34_o falling
+  Destination Clock: GND_5_o_reset_OR_34_o falling
+
+  Data Path: clk_005Hz.a2_10_LD to clock2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.498   1.031  clk_005Hz.a2_10_LD (clk_005Hz.a2_10_LD)
+     LUT3:I0->O            2   0.205   0.721  clk_005Hz.a2_131 (clk_005Hz.a2_13)
+     LUT5:I3->O            1   0.203   0.000  Mmux_clock2_clock2_MUX_8_o11 (clock2_clock2_MUX_8_o)
+     LD:D                      0.037          clock2
+    ----------------------------------------
+    Total                      2.695ns (0.943ns logic, 1.752ns route)
+                                       (35.0% logic, 65.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GND_5_o_reset_OR_60_o'
+  Clock period: 3.036ns (frequency: 329.430MHz)
+  Total number of paths / destination ports: 6 / 1
+-------------------------------------------------------------------------
+Delay:               3.036ns (Levels of Logic = 2)
+  Source:            clk_1Hz.a3_9_LD (LATCH)
+  Destination:       clock3 (LATCH)
+  Source Clock:      GND_5_o_reset_OR_60_o falling
+  Destination Clock: GND_5_o_reset_OR_60_o falling
+
+  Data Path: clk_1Hz.a3_9_LD to clock3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              11   0.498   1.111  clk_1Hz.a3_9_LD (clk_1Hz.a3_9_LD)
+     LUT3:I0->O            2   0.205   0.981  clk_1Hz.a3_71 (clk_1Hz.a3_7)
+     LUT6:I0->O            1   0.203   0.000  Mmux_clock3_clock3_MUX_12_o11 (clock3_clock3_MUX_12_o)
+     LD:D                      0.037          clock3
+    ----------------------------------------
+    Total                      3.036ns (0.943ns logic, 2.093ns route)
+                                       (31.1% logic, 68.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GND_5_o_reset_OR_78_o'
+  Clock period: 2.899ns (frequency: 344.970MHz)
+  Total number of paths / destination ports: 3 / 1
+-------------------------------------------------------------------------
+Delay:               2.899ns (Levels of Logic = 2)
+  Source:            clk_10Hz.a4_6_LD (LATCH)
+  Destination:       clock4 (LATCH)
+  Source Clock:      GND_5_o_reset_OR_78_o falling
+  Destination Clock: GND_5_o_reset_OR_78_o falling
+
+  Data Path: clk_10Hz.a4_6_LD to clock4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              12   0.498   1.137  clk_10Hz.a4_6_LD (clk_10Hz.a4_6_LD)
+     LUT3:I0->O            5   0.205   0.819  clk_10Hz.a4_21 (clk_10Hz.a4_2)
+     LUT6:I4->O            1   0.203   0.000  Mmux_clock4_clock4_MUX_16_o1 (clock4_clock4_MUX_16_o)
+     LD:D                      0.037          clock4
+    ----------------------------------------
+    Total                      2.899ns (0.943ns logic, 1.956ns route)
+                                       (32.5% logic, 67.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GND_5_o_reset_OR_90_o'
+  Clock period: 3.383ns (frequency: 295.618MHz)
+  Total number of paths / destination ports: 3 / 1
+-------------------------------------------------------------------------
+Delay:               3.383ns (Levels of Logic = 3)
+  Source:            clk_100Hz.a5_4_LD (LATCH)
+  Destination:       clock5 (LATCH)
+  Source Clock:      GND_5_o_reset_OR_90_o falling
+  Destination Clock: GND_5_o_reset_OR_90_o falling
+
+  Data Path: clk_100Hz.a5_4_LD to clock5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               7   0.498   1.002  clk_100Hz.a5_4_LD (clk_100Hz.a5_4_LD)
+     LUT3:I0->O            3   0.205   0.651  clk_100Hz.a5_51 (clk_100Hz.a5_5)
+     LUT5:I4->O            1   0.205   0.580  Mmux_clock5_clock5_MUX_20_o11_SW0 (N28)
+     LUT6:I5->O            1   0.205   0.000  Mmux_clock5_clock5_MUX_20_o11 (clock5_clock5_MUX_20_o)
+     LD:D                      0.037          clock5
+    ----------------------------------------
+    Total                      3.383ns (1.150ns logic, 2.233ns route)
+                                       (34.0% logic, 66.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 45 / 45
+-------------------------------------------------------------------------
+Offset:              3.918ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       clk_005Hz.a2_12 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to clk_005Hz.a2_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   1.059  reset_IBUF (reset_IBUF)
+     LUT5:I0->O           16   0.203   1.004  GND_5_o_reset_OR_34_o1 (GND_5_o_reset_OR_34_o)
+     FDC:CLR                   0.430          clk_005Hz.a2_12
+    ----------------------------------------
+    Total                      3.918ns (1.855ns logic, 2.063ns route)
+                                       (47.3% logic, 52.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GND_5_o_reset_OR_6_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.685ns (Levels of Logic = 1)
+  Source:            clock1 (LATCH)
+  Destination:       clock1 (PAD)
+  Source Clock:      GND_5_o_reset_OR_6_o falling
+
+  Data Path: clock1 to clock1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.616  clock1 (clock1_OBUF)
+     OBUF:I->O                 2.571          clock1_OBUF (clock1)
+    ----------------------------------------
+    Total                      3.685ns (3.069ns logic, 0.616ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GND_5_o_reset_OR_34_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.685ns (Levels of Logic = 1)
+  Source:            clock2 (LATCH)
+  Destination:       clock2 (PAD)
+  Source Clock:      GND_5_o_reset_OR_34_o falling
+
+  Data Path: clock2 to clock2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.616  clock2 (clock2_OBUF)
+     OBUF:I->O                 2.571          clock2_OBUF (clock2)
+    ----------------------------------------
+    Total                      3.685ns (3.069ns logic, 0.616ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GND_5_o_reset_OR_60_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.685ns (Levels of Logic = 1)
+  Source:            clock3 (LATCH)
+  Destination:       clock3 (PAD)
+  Source Clock:      GND_5_o_reset_OR_60_o falling
+
+  Data Path: clock3 to clock3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.616  clock3 (clock3_OBUF)
+     OBUF:I->O                 2.571          clock3_OBUF (clock3)
+    ----------------------------------------
+    Total                      3.685ns (3.069ns logic, 0.616ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GND_5_o_reset_OR_78_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.685ns (Levels of Logic = 1)
+  Source:            clock4 (LATCH)
+  Destination:       clock4 (PAD)
+  Source Clock:      GND_5_o_reset_OR_78_o falling
+
+  Data Path: clock4 to clock4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.616  clock4 (clock4_OBUF)
+     OBUF:I->O                 2.571          clock4_OBUF (clock4)
+    ----------------------------------------
+    Total                      3.685ns (3.069ns logic, 0.616ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GND_5_o_reset_OR_90_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.685ns (Levels of Logic = 1)
+  Source:            clock5 (LATCH)
+  Destination:       clock5 (PAD)
+  Source Clock:      GND_5_o_reset_OR_90_o falling
+
+  Data Path: clock5 to clock5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.616  clock5 (clock5_OBUF)
+     OBUF:I->O                 2.571          clock5_OBUF (clock5)
+    ----------------------------------------
+    Total                      3.685ns (3.069ns logic, 0.616ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock GND_5_o_reset_OR_34_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_34_o|         |         |    2.695|         |
+clk                  |         |         |    2.872|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GND_5_o_reset_OR_60_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_60_o|         |         |    3.036|         |
+clk                  |         |         |    2.889|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GND_5_o_reset_OR_6_o
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_6_o|         |         |    2.526|         |
+clk                 |         |         |    2.291|         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GND_5_o_reset_OR_78_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_78_o|         |         |    2.899|         |
+clk                  |         |         |    2.639|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GND_5_o_reset_OR_90_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_90_o|         |         |    3.383|         |
+clk                  |         |         |    3.012|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+GND_5_o_reset_OR_34_o|         |    4.218|         |         |
+GND_5_o_reset_OR_60_o|         |    4.389|         |         |
+GND_5_o_reset_OR_6_o |         |    3.633|         |         |
+GND_5_o_reset_OR_78_o|         |    4.174|         |         |
+GND_5_o_reset_OR_90_o|         |    4.037|         |         |
+clk                  |    4.143|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.43 secs
+ 
+--> 
+
+Total memory usage is 216712 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/.Xilinx/IDP/sweep_upgrade_tb_isim_beh.exe" -prj "C:/.Xilinx/IDP/sweep_upgrade_tb_beh.prj" "work.sweep_upgrade_tb" 

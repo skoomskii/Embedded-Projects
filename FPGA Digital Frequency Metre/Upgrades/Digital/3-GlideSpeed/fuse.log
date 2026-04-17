@@ -1,0 +1,51 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/.Xilinx/IDP/sweep_upgrade_tb_isim_beh.exe -prj C:/.Xilinx/IDP/sweep_upgrade_tb_beh.prj work.sweep_upgrade_tb 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/.Xilinx/IDP/modulo10_counter.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/Reg_5bit.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/MUX_81.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/MUX_31.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/Mod8_Counter.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/mod100_counter.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/time_multiplexer_4digit.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/sweep.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/mod10k_counter.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/Hold_Register_32bit.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/frequency_divider.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/main_data_unit.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/Controlpath_Interface.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/Frequency_Metre.vhd" into library work
+Parsing VHDL file "C:/.Xilinx/IDP/sweep_upgrade_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159556 KB
+Fuse CPU Usage: 609 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling architecture behavioral of entity frequency_divider [frequency_divider_default]
+Compiling architecture behavioral of entity modulo10_counter [modulo10_counter_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture behavioral of entity mod100_counter [mod100_counter_default]
+Compiling architecture behavioral of entity mod10k_counter [mod10k_counter_default]
+Compiling architecture behavioral of entity Hold_Register_32bit [hold_register_32bit_default]
+Compiling architecture behavioral of entity MUX_81 [mux_81_default]
+Compiling architecture behavioral of entity Reg_5bit [reg_5bit_default]
+Compiling architecture behavioral of entity Mod8_Counter [mod8_counter_default]
+Compiling architecture behavioral of entity MUX_31 [mux_31_default]
+Compiling architecture behavioral of entity sweep [sweep_default]
+Compiling architecture behavioral of entity time_multiplexer_4digit [time_multiplexer_4digit_default]
+Compiling architecture behavioral of entity Data_Unit_main [data_unit_main_default]
+Compiling architecture behavioral of entity FSMD [fsmd_default]
+Compiling architecture behavioral of entity Frequency_Metre [frequency_metre_default]
+Compiling architecture behavior of entity sweep_upgrade_tb
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 36 VHDL Units
+Built simulation executable C:/.Xilinx/IDP/sweep_upgrade_tb_isim_beh.exe
+Fuse Memory Usage: 176616 KB
+Fuse CPU Usage: 1014 ms

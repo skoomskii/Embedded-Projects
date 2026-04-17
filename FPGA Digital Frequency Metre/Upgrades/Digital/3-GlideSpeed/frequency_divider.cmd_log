@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/frequency_divider.xst" -ofn "C:/.Xilinx/IDP/frequency_divider.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/frequency_divider.xst" -ofn "C:/.Xilinx/IDP/frequency_divider.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/frequency_divider.xst" -ofn "C:/.Xilinx/IDP/frequency_divider.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/frequency_divider.xst" -ofn "C:/.Xilinx/IDP/frequency_divider.syr" 
