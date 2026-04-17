@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod10k_counter.xst" -ofn "C:/.Xilinx/IDP/mod10k_counter.syr" 

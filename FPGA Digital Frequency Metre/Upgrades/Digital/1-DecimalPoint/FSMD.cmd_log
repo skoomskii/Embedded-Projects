@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/FSMD.xst" -ofn "C:/.Xilinx/IDP/FSMD.syr" 

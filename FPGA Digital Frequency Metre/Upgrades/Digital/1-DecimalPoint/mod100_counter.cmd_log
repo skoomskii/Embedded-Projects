@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod100_counter.xst" -ofn "C:/.Xilinx/IDP/mod100_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/IDP/mod100_counter.xst" -ofn "C:/.Xilinx/IDP/mod100_counter.syr" 
