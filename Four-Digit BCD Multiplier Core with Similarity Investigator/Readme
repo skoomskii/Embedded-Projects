@@ -1,0 +1,5 @@
+BCD multiplication involves scaling one decimal number by another. 
+This project sought to design and implement a four-digit BCD multiplier core with similarity investigation on the Spartan-6 XC6LX16-CS324 FPGA. 
+The design was also required to validate inputs avoiding invalid BCD digits and trivial multiplications by ones and zeros. 
+Multiplication was based on parallel partial product generation by the accumulation of a sequentially shifted multiplicand. 
+The design was implemented on Xilinx ISE 14.7. It was then simulated on ISim and validated on the Digilent Nexy3 toolkit.
