@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Zircon_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Zircon_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="488.600 ns"></ZoomStartTime>
+      <ZoomEndTime time="600.101 ns"></ZoomEndTime>
+      <Cursor1Time time="535.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/Zircon_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop1/address" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="label">PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop1/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">Instruction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop3/OP" type="array">
+      <obj_property name="ElementShortName">OP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">OP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop3/rtn" type="logic">
+      <obj_property name="ElementShortName">rtn</obj_property>
+      <obj_property name="ObjectShortName">rtn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop3/jmp" type="logic">
+      <obj_property name="ElementShortName">jmp</obj_property>
+      <obj_property name="ObjectShortName">jmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop3/brch" type="logic">
+      <obj_property name="ElementShortName">brch</obj_property>
+      <obj_property name="ObjectShortName">brch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/bout" type="logic">
+      <obj_property name="ElementShortName">bout</obj_property>
+      <obj_property name="ObjectShortName">bout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/Ovf" type="logic">
+      <obj_property name="ElementShortName">Ovf</obj_property>
+      <obj_property name="ObjectShortName">Ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/Zf" type="logic">
+      <obj_property name="ElementShortName">Zf</obj_property>
+      <obj_property name="ObjectShortName">Zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop5/Cf" type="logic">
+      <obj_property name="ElementShortName">Cf</obj_property>
+      <obj_property name="ObjectShortName">Cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop3/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop4/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop5/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop6/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop7/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop8/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop9/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop10/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop11/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop12/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop13/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop14/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop15/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop16/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop17/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop18/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop19/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop20/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x18</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop21/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x19</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop22/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x20</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop23/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x21</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop24/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x22</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Zircon_tb/uut1/cop4/cop25/DO" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="label">x23</obj_property>
+   </wvobject>
+</wave_config>
